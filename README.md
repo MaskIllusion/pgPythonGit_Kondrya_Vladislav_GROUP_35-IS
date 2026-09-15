@@ -5,7 +5,8 @@
 ## app.py
 Выполняет запрос `SELECT * FROM tracks;` и печатает все строки.
 
-![Вывод в консоли](screenshot_console.png)
+![Вывод в консоли](<img width="1465" height="937" alt="image" src="https://github.com/user-attachments/assets/ea63bd42-d742-4a26-886f-e2766ee8bc1f" />
+)
 ![Таблица в pgAdmin](screenshot_pgadmin.png)
 
 ## app2.py (будет добавлен позже)
