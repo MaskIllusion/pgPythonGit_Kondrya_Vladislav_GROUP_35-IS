@@ -9,7 +9,7 @@
 
 Таблица в pgAdmin (<img width="1050" height="914" alt="Снимок БД" src="https://github.com/user-attachments/assets/d9b75fe0-382a-4031-8ac5-1b495f4356ae" />
 
-## app2.py (будет добавлен позже)
+## app2.py 
 Выполняет запрос `SELECT Название, Исполнитель FROM tracks;` и печатает только эти два столбца.
 
-![Вывод в консоли](screenshot_console2.png)
+Вывод в консоли (<img width="1163" height="920" alt="Снимок консоля 2" src="https://github.com/user-attachments/assets/82c27e97-6613-421f-9f6f-4afabe96984c" />
