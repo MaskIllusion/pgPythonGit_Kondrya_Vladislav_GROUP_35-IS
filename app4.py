@@ -9,29 +9,17 @@ conn = psycopg.connect(
 
 cur = conn.cursor()
 
-cur.execute("SELECT * FROM tracks WHERE Исполнитель = 'Linkin Park';")
-
+#cur.execute("SELECT * FROM tracks WHERE Исполнитель = 'Linkin Park';")
 #cur.execute("SELECT * FROM tracks WHERE Год = 2017;")
-
 #cur.execute("SELECT * FROM tracks WHERE Год < 2000;")
-
 #cur.execute("SELECT * FROM tracks WHERE Год > 2015;")
-
 #cur.execute("SELECT * FROM tracks WHERE Длительность > 200;")
-
-
 #cur.execute("SELECT * FROM tracks WHERE Длительность > 300;")
-
 #cur.execute("SELECT * FROM tracks WHERE Длительность < 170;")
-
-
 #cur.execute("SELECT * FROM tracks WHERE Длительность >= 200;")
-
 #cur.execute("SELECT * FROM tracks WHERE Исполнитель = 'Король и Шут';")
 
-
-#cur.execute("SELECT * FROM tracks ORDER BY Название ASC;") 
-
+cur.execute("SELECT * FROM tracks ORDER BY Название ASC;")
 
 rows = cur.fetchall()
 
