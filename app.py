@@ -25,3 +25,4 @@ for row in rows:
 # Закрываем курсор и соединение с базой
 cur.close()
 conn.close()
+
