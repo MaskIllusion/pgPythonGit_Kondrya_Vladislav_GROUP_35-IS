@@ -12,8 +12,6 @@
 ## app2.py 
 Выполняет запрос `SELECT Название, Исполнитель FROM tracks;` и печатает только эти два столбца.
 
-![Вывод в консоли](screenshot_console2.png)
-
 
 
 Вывод в консоли (<img width="1275" height="905" alt="Снимок консоля 2" src="https://github.com/user-attachments/assets/f720b097-76b6-4f3a-a95b-0401b92931ed" />
