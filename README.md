@@ -35,4 +35,4 @@
 ## app6.py
 Запрашивает у пользователя название, исполнителя, год и длительность, добавляет новую строку в таблицу `tracks` через `INSERT` и выводит всё содержимое таблицы.
 
-![Вывод app6.py](screenshot_console6.png)
+Вывод app6.py (<img width="1501" height="990" alt="screenshot_pgadmin6" src="https://github.com/user-attachments/assets/6a30e512-0482-4283-b57b-e590529be422" />
